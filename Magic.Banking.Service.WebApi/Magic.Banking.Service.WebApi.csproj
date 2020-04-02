@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Magic.Banking.Service.Application\Magic.Banking.Service.Application.csproj" />
+    <ProjectReference Include="..\Magic.Banking.Service.Contract\Magic.Banking.Service.Contract.csproj" />
+    <ProjectReference Include="..\Magic.Banking.Service.Infrastructure.Persistance\Magic.Banking.Service.Infrastructure.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Magic.Banking.Service.Contract\Magic.Banking.Service.Contract.csproj" />
+    <ProjectReference Include="..\Magic.Banking.Service.Domain\Magic.Banking.Service.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entitites\" />
+  </ItemGroup>
+
+</Project>
